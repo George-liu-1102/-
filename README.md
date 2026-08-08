@@ -35,7 +35,7 @@
    .venv\Scripts\activate      # Windows
    pip install -r requirements.txt
 
-3. 生成样本数据（可选 — 若仓库已提供 data/veg_wholesale_sample.csv 可跳过）：
+3. 生成样本数据（ 仓库已提供： data/veg_wholesale_sample.csv ）：
    python scripts/generate_sample_data.py --base-dir "<path_to_project>"
 
 4. 运行完整监控脚本并生成报告：
@@ -50,21 +50,11 @@
 - vol_drop_threshold: -0.20
 - vol_rise_threshold: 0.20
 
-交付物清单（提交给评审/产品）
+交付物清单
 -----------------------------
 - 完整代码：scripts/ 和 notebooks/
 - 数据样本：data/veg_wholesale_sample.csv
 - Outputs: outputs/*.csv, outputs/veg_report_index.html, outputs/figures/*.png
-- 文档：README.md、docs/design.md（可选）
+- 文档：README.md
 
-验收要点（快速核对）
--------------------
-- 能否运行 `python scripts/run_veg_monitor.py --generate-report` 并生成 outputs/veg_report_index.html；
-- outputs/veg_anomalies_supply_risk.csv 是否存在，且能被打开查看 topN；
-- notebooks/02_rolling_detection.ipynb 中包含 rolling_z 的实现，并能可视化异常点。
 
-联系方式
---------
-如需我把这些文件写入你的 GitHub 仓库或打包成 zip，请回复并提供：
-- （可选）目标 GitHub 仓库（owner/repo），或
-- 需要的导出格式（zip / 单文件下载）# -
