@@ -9,10 +9,10 @@
 
 项目产出
 ---------
-- 数据：data/veg_wholesale_sample.csv（示例/合成数据）
+- 数据：data/veg_wholesale_sample.csv（示例）
 - 自动化脚本：scripts/run_veg_monitor.py（可用于定时任务）
 - 报表与图表：outputs/veg_report_index.html + outputs/figures/*.png
-- 异常/审核表：outputs/*.csv（详见 outputs/ 目录）
+- 异常/审核表：outputs/*.csv
 
 主方法概述
 ------------
@@ -49,12 +49,5 @@
 - price_z_threshold: 3.0
 - vol_drop_threshold: -0.20
 - vol_rise_threshold: 0.20
-
-交付物清单
------------------------------
-- 完整代码：scripts/ 和 notebooks/
-- 数据样本：data/veg_wholesale_sample.csv
-- Outputs: outputs/*.csv, outputs/veg_report_index.html, outputs/figures/*.png
-- 文档：README.md
 
 
