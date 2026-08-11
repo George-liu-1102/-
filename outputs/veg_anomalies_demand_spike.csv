@@ -1,2 +1,0 @@
-﻿city,vegetable,level_2,date,avg_price,total_volume,total_revenue,price_pct_ch,vol_pct_ch,rolling_vol,rolling_mean,rolling_std,rolling_z,price_anom,vol_drop,vol_rise,supply_risk,demand_spike,price_shock_any
-Shanghai,黄瓜,38011,2021-01-17,5.09,1545,7864.05,0.09227467811158796,0.25609756097560976,0.10227582099136251,3.8016666666666667,0.4126122278541007,3.1223828242649336,True,False,True,False,True,True

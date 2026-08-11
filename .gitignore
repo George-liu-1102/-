@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Large raw JSONL (full categories); keep the vegetable subset tracked
+data/raw/xinfadi_raw.jsonl
