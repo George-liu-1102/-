@@ -15,8 +15,7 @@
 .
 ├── data/
 │   ├── raw/                      # 原始数据（JSONL，蔬菜子集入库）
-│   ├── veg_wholesale_xinfadi.csv # 清洗后分析数据（主数据集）
-│   └── veg_wholesale_sample.csv  # 旧版合成数据（已弃用，保留参考）
+│   ├── veg_wholesale_xinfadi.csv # 清洗后分析数据（主数据集）   
 ├── scripts/
 │   ├── fetch_xinfadi_data.py     # 抓取新发地公开行情（断点续传）
 │   ├── build_xinfadi_dataset.py  # 清洗并生成分析数据集
